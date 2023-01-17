@@ -25,6 +25,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .logo:hover {
@@ -72,6 +73,7 @@ input {
     border-radius: 50px;
     padding: 5px 10px;
     outline: none;
+    cursor: pointer;
 }
 
 input[type='submit'] {
@@ -82,6 +84,11 @@ input[type='submit'] {
     margin-top: 10px;
 }
 
+input[type='submit']:hover {
+    color: #000;
+    border: 2px solid black;
+    background-color: white;
+}
 
 
 
@@ -106,6 +113,8 @@ input[type='submit'] {
     padding: 5px 10px;
 }
 
+
+
 .btns a {
     text-decoration: none;
     color: #000;
@@ -120,12 +129,11 @@ input[type='submit'] {
         align-items: center;
         height: 10vh;
         background-color: aliceblue;
-        height: 6vh;
     }
 
     .btns {
         padding: 1px 8px;
-        margin-right: 10px;
+        margin-right: 7px;
     }
 
     .btns a {
@@ -134,7 +142,7 @@ input[type='submit'] {
 
     .logo {
         font-size: 20px;
-        margin-left: 10px;
+        margin-left: 7px;
     }
 
     input {
@@ -143,15 +151,11 @@ input[type='submit'] {
 
     .footer {
         font-size: 16px;
-        height: 6vh;
     }
 
     input[type='submit'] {
         width: 80px;
     }
-    .forms-login{
-        height:88vh;
-    
 }
 
 @media(max-width:300px) {
