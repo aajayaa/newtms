@@ -120,6 +120,7 @@ input[type='submit'] {
         align-items: center;
         height: 10vh;
         background-color: aliceblue;
+        height: 6vh;
     }
 
     .btns {
@@ -142,11 +143,13 @@ input[type='submit'] {
 
     .footer {
         font-size: 16px;
+        height: 6vh;
     }
 
     input[type='submit'] {
         width: 80px;
     }
+    
 }
 
 @media(max-width:300px) {
